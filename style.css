@@ -1,0 +1,47 @@
+*{background-color: black;
+}
+#text{
+    text-align: center;
+    color: white;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted green; 
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: green;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+form{
+    width: 500px;
+    margin: auto;
+    text-align: left;
+}
+input{
+    color: blanchedalmond;
+    width: 500px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.fname{
+    border: 2px solid lightblue;
+}
+.email{
+    border: 2px solid green;
+}
+.dob{
+    border: 2px solid orange;
+}
